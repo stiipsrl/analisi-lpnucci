@@ -1,0 +1,398 @@
+<div class="space-y-12">
+    <!-- Intro Section -->
+    <div class="bg-white rounded-xl shadow-md p-6">
+        <div class="border-l-4 brand-border pl-4 mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Roadmap di Sviluppo</h2>
+            <p class="text-gray-600">
+                Il progetto segue una strategia di sviluppo incrementale, suddivisa in tre sprint settimanali.
+                Questo approccio consente una delivery costante di valore e permette di adattare l'app mobile 
+                in base al feedback del cliente, assicurando che il sistema di gestione ordini offline si integri 
+                perfettamente con GiveMeHive e soddisfi pienamente le esigenze operative degli agenti commerciali di LP Nucci.
+            </p>
+        </div>
+        
+        <!-- Roadmap Timeline -->
+        <div class="relative flex justify-between mt-12 mb-8">
+            <div class="absolute top-1/2 w-full h-1 bg-gray-200 -translate-y-1/2"></div>
+            
+            <div class="relative z-10">
+                <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mb-2" style="margin: auto; margin-bottom: 8px;">
+                    <span class="material-symbols-outlined text-yellow-700 text-sm">looks_one</span>
+                </div>
+                <div class="text-center">
+                    <div class="font-semibold text-sm">Sprint 1</div>
+                    <div class="text-xs text-gray-500">Core Features</div>
+                </div>
+            </div>
+            
+            <div class="relative z-10">
+                <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mb-2" style="margin: auto; margin-bottom: 8px;">
+                    <span class="material-symbols-outlined text-yellow-700 text-sm">looks_two</span>
+                </div>
+                <div class="text-center">
+                    <div class="font-semibold text-sm">Sprint 2</div>
+                    <div class="text-xs text-gray-500">Offline Engine</div>
+                </div>
+            </div>
+            
+            <div class="relative z-10">
+                <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mb-2" style="margin: auto; margin-bottom: 8px;">
+                    <span class="material-symbols-outlined text-yellow-700 text-sm">looks_3</span>
+                </div>
+                <div class="text-center">
+                    <div class="font-semibold text-sm">Sprint 3</div>
+                    <div class="text-xs text-gray-500">Testing & Deploy</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Piano di Sviluppo -->
+    <div class="bg-white rounded-xl shadow-md p-6 relative overflow-hidden">
+        
+        <div class="flex items-center mb-8">
+            <div class="flex items-center justify-center w-12 h-12 bg-brand rounded-xl mr-4">
+                <span class="material-icons-outlined text-2xl text-gray-900">rocket_launch</span>
+            </div>
+            <div>
+                <div class="flex items-center">
+                    <h3 class="text-lg font-semibold text-yellow-800">Piano di Sviluppo</h3>
+                    <span class="ml-4 px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">3 Sprint</span>
+                </div>
+                <p class="text-gray-600 mt-1">Implementazione dell'app mobile per la gestione ordini offline con integrazione GiveMeHive</p>
+            </div>
+        </div>
+
+        <!-- Sezioni informative -->
+        <div class="grid grid-cols-2 gap-6 mb-8">
+            <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
+                <div class="flex items-center mb-3">
+                    <span class="material-icons-outlined text-[#FCD415] mr-2">warning</span>
+                    <h4 class="font-medium text-gray-800">Punti di Attenzione</h4>
+                </div>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">priority_high</span>
+                        Funzionalità offline-first con calcolo prezzi localizzato
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">priority_high</span>
+                        Sincronizzazione affidabile dati tra app e backend
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">priority_high</span>
+                        Esperienza utente fluida per agenti commerciali
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
+                <div class="flex items-center mb-3">
+                    <span class="material-icons-outlined text-[#FCD415] mr-2">engineering</span>
+                    <h4 class="font-medium text-gray-800">Sfide Tecniche</h4>
+                </div>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">code</span>
+                        Replicazione logica di calcolo prezzi e listini offline
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">code</span>
+                        Database locale per gestione dati offline
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">code</span>
+                        Sistema di sincronizzazione intelligente e conflict resolution
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sprint Timeline -->
+        <div class="space-y-6">
+            <!-- Sprint 1: Core Features -->
+            <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center">
+                        <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">1</span>
+                        <h5 class="font-medium text-gray-800">Funzionalità Core e Integrazione Backend</h5>
+                    </div>
+                    <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 1</span>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <h6 class="text-sm font-medium text-gray-700 mb-2">Obiettivi Sprint</h6>
+                        <ul class="space-y-1">
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Setup progetto con architettura offline-first
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Integrazione API GiveMeHive per auth e sincronizzazione dati
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Sistema di login agenti con gestione sessioni
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Download iniziale clienti e prodotti per agente
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6 class="text-sm font-medium text-gray-700 mb-2">Deliverable</h6>
+                        <ul class="space-y-1">
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">phone_android</span>
+                                App mobile con login funzionante
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">cloud_sync</span>
+                                Sincronizzazione dati base da GiveMeHive
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">storage</span>
+                                Database locale configurato
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sprint 2: Offline Engine -->
+            <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center">
+                        <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">2</span>
+                        <h5 class="font-medium text-gray-800">Engine Offline e Calcolo Prezzi</h5>
+                    </div>
+                    <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 2</span>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <h6 class="text-sm font-medium text-gray-700 mb-2">Obiettivi Sprint</h6>
+                        <ul class="space-y-1">
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Implementazione logica calcolo prezzi offline con listini
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Interfaccia gestione ordini con selezione clienti/prodotti
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Sistema di sconti, promozioni e calcoli automatici
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Salvataggio ordini in locale con coda di sincronizzazione
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6 class="text-sm font-medium text-gray-700 mb-2">Deliverable</h6>
+                        <ul class="space-y-1">
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">calculate</span>
+                                Engine di calcolo prezzi funzionante offline
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">shopping_cart</span>
+                                Interfaccia completa creazione ordini
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">offline_bolt</span>
+                                Funzionalità offline completamente operativa
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sprint 3: Testing & Deploy -->
+            <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center">
+                        <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">3</span>
+                        <h5 class="font-medium text-gray-800">Testing, Ottimizzazione e Deploy</h5>
+                    </div>
+                    <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 3</span>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <h6 class="text-sm font-medium text-gray-700 mb-2">Obiettivi Sprint</h6>
+                        <ul class="space-y-1">
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Testing completo funzionalità offline e sincronizzazione
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Ottimizzazione performance e gestione memoria
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Build per iOS e Android, test su dispositivi reali
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Publicazione su App Store e Play Store
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6 class="text-sm font-medium text-gray-700 mb-2">Deliverable</h6>
+                        <ul class="space-y-1">
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">verified</span>
+                                App testata e validata per production
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">store</span>
+                                Build pronte per distribuzione App Store/Play Store
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-blue-500 text-sm mr-1">launch</span>
+                                Pubblicazione su App Store e Google Play
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>                            
+
+    <!-- Funzionalità Chiave -->
+    <div class="bg-white rounded-xl shadow-md p-6 relative overflow-hidden">
+        
+        <div class="flex items-center mb-8">
+            <div class="flex items-center justify-center w-12 h-12 bg-brand rounded-xl mr-4">
+                <span class="material-icons-outlined text-2xl text-gray-900">star</span>
+            </div>
+            <div>
+                <div class="flex items-center">
+                    <h3 class="text-lg font-semibold text-yellow-800">Funzionalità Chiave</h3>
+                </div>
+                <p class="text-gray-600 mt-1">Principali caratteristiche dell'app mobile per gli agenti commerciali di LP Nucci</p>
+            </div>
+        </div>
+
+        <!-- Panoramica Funzionalità -->
+        <div class="grid grid-cols-2 gap-6 mb-8">
+            <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
+                <div class="flex items-center mb-3">
+                    <span class="material-icons-outlined text-[#FCD415] mr-2">psychology</span>
+                    <h4 class="font-medium text-gray-800">Core Features</h4>
+                </div>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">arrow_forward</span>
+                        Gestione completa ordini offline per agenti commerciali
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">arrow_forward</span>
+                        Calcolo prezzi localizzato con listini e sconti cliente
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">arrow_forward</span>
+                        Sincronizzazione automatica al ritorno della connettività
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
+                <div class="flex items-center mb-3">
+                    <span class="material-icons-outlined text-[#FCD415] mr-2">build</span>
+                    <h4 class="font-medium text-gray-800">Vantaggi Operativi</h4>
+                </div>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">settings</span>
+                        Produttività agenti anche senza connessione internet
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">settings</span>
+                        Integrazione seamless con backend GiveMeHive esistente
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">settings</span>
+                        Gestione automatica conflitti e validazione dati
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Architettura Tecnica -->
+        <!-- <div class="bg-gray-50 rounded-lg p-4 border border-gray-100 mb-8">
+            <div class="flex items-center mb-3">
+                <span class="material-icons-outlined text-[#FCD415] mr-2">architecture</span>
+                <h4 class="font-medium text-gray-800">Architettura Tecnica</h4>
+            </div>
+            <p class="text-sm text-gray-600 mb-3">
+                L'app sarà sviluppata utilizzando tecnologie moderne per garantire performance e affidabilità:
+            </p>
+            <ul class="space-y-2 text-gray-600">
+                <li class="flex items-start">
+                    <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">layers</span>
+                    <span class="text-sm">React Native per sviluppo cross-platform iOS/Android con codebase unica</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">storage</span>
+                    <span class="text-sm">SQLite per database locale con capacità di gestione offline avanzate</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">sync</span>
+                    <span class="text-sm">Sistema di sincronizzazione bidirezionale con conflict resolution intelligente</span>
+                </li>
+            </ul>
+        </div> -->
+    </div>
+
+    <!-- Nota Finale -->
+    <div class="bg-gray-50 rounded-lg p-6 border border-gray-200 mt-8">
+        <div class="flex items-start">
+            <span class="material-icons-outlined text-[#FCD415] mr-3">info</span>
+            <div>
+                <h4 class="font-medium text-gray-800 mb-2">Nota sulla Pianificazione</h4>
+                <p class="text-gray-600 mb-4">
+                    Questa roadmap rappresenta una pianificazione ottimizzata che privilegia lo sviluppo dell'esperienza mobile con un focus mirato sull'integrazione con l'ecosistema GiveMeHive esistente. La metodologia agile ci permette di mantenere flessibilità per adattamenti in corso d'opera, garantendo sempre una consegna puntuale delle funzionalità richieste. Al termine di ogni sprint, è previsto un momento di verifica con il team di LP Nucci per validare i progressi e raccogliere feedback preziosi.
+                </p>
+                <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                    <h5 class="font-medium text-yellow-800 flex items-center mb-2">
+                        <span class="material-icons-outlined text-yellow-700 mr-2 text-sm">lightbulb</span>
+                        Sfida Tecnica Principale
+                    </h5>
+                    <p class="text-gray-700 text-sm">
+                        La parte più complessa del progetto è la replicazione della logica di calcolo prezzi offline. Attualmente gestita dal backend di GiveMeHive, questa funzionalità dovrà essere interamente riscritta per l'ambiente mobile, garantendo la stessa affidabilità e precisione del sistema originale. Utilizzeremo un approccio di reverse engineering delle API esistenti per assicurare compatibilità totale.
+                    </p>
+                </div>
+                
+                <div class="bg-blue-50 p-4 rounded-lg border border-blue-200 mt-4">
+                    <h5 class="font-medium text-blue-800 flex items-center mb-2">
+                        <span class="material-icons-outlined text-blue-700 mr-2 text-sm">offline_bolt</span>
+                        Strategia Offline-First
+                    </h5>
+                    <p class="text-gray-700 text-sm">
+                        L'app sarà progettata con un approccio offline-first, dove tutte le funzionalità core funzionano senza connessione internet. La sincronizzazione avverrà in background quando la connessione è disponibile, utilizzando un sistema di coda intelligente che gestisce automaticamente conflitti e validazioni. Questo garantisce massima produttività per gli agenti anche in zone con copertura di rete limitata.
+                    </p>
+                </div>
+
+                <div class="bg-green-50 p-4 rounded-lg border border-green-200 mt-4">
+                    <h5 class="font-medium text-green-800 flex items-center mb-2">
+                        <span class="material-icons-outlined text-green-700 mr-2 text-sm">integration_instructions</span>
+                        Integrazione GiveMeHive
+                    </h5>
+                    <p class="text-gray-700 text-sm">
+                        L'app si integrerà completamente con il modulo ordini esistente di GiveMeHive, utilizzando le API consolidate per autenticazione, gestione clienti e sincronizzazione dati. Le ottimizzazioni backend necessarie si concentreranno sul perfezionamento delle API esistenti e sull'implementazione di endpoint specifici per la gestione della sincronizzazione mobile, garantendo performance ottimali e sicurezza dei dati.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
