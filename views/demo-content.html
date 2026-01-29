@@ -163,8 +163,8 @@
     <!-- Order Creation Flow -->
     <div class="bg-gray-800 rounded-xl p-6 shadow-2xl mt-8">
         <h3 class="text-white text-lg font-semibold mb-4">Flusso Creazione Ordine</h3>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
             <!-- Step 1: Client Selection -->
             <div class="bg-gray-900 rounded-2xl p-2 shadow-2xl">
                 <div class="bg-white rounded-xl overflow-hidden h-[500px]">
@@ -195,11 +195,103 @@
                 </div>
             </div>
 
-            <!-- Step 2: Product Selection -->
+            <!-- Step 2: Order History / Frequently Ordered -->
             <div class="bg-gray-900 rounded-2xl p-2 shadow-2xl">
                 <div class="bg-white rounded-xl overflow-hidden h-[500px]">
                     <div class="bg-brand px-3 py-2 text-center">
-                        <span class="text-gray-900 font-medium text-sm">2. Selezione Prodotti</span>
+                        <span class="text-gray-900 font-medium text-sm">2. Prodotti Frequenti</span>
+                    </div>
+                    <div class="p-3 space-y-2">
+                        <div class="text-xs text-gray-600 mb-2">Storico ordini: Bar Centrale</div>
+                        <div class="bg-blue-50 p-2 rounded border border-blue-200 mb-2">
+                            <div class="flex items-center text-xs text-blue-800">
+                                <span class="material-icons-outlined mr-1 text-xs">history</span>
+                                Prodotti più ordinati da questo cliente
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="p-2 border rounded bg-gray-50">
+                                <div class="flex justify-between items-start mb-1">
+                                    <div class="flex-1">
+                                        <div class="text-sm font-medium">Prosciutto San Daniele DOP</div>
+                                        <div class="text-xs text-gray-500">Ultimo ordine: 3 kg - 15/01/2026</div>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-xs text-purple-600 font-medium">12 ordini</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-2 mt-2">
+                                    <button class="w-6 h-6 bg-gray-200 rounded flex items-center justify-center">
+                                        <span class="material-icons-outlined text-xs">remove</span>
+                                    </button>
+                                    <span class="text-sm min-w-8 text-center">3</span>
+                                    <button class="w-6 h-6 bg-brand rounded flex items-center justify-center">
+                                        <span class="material-icons-outlined text-xs text-gray-900">add</span>
+                                    </button>
+                                    <span class="text-xs text-gray-600 ml-2">kg</span>
+                                    <button class="ml-auto px-2 py-1 bg-green-100 text-green-700 rounded text-xs">
+                                        + Aggiungi
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-2 border rounded bg-gray-50">
+                                <div class="flex justify-between items-start mb-1">
+                                    <div class="flex-1">
+                                        <div class="text-sm font-medium">Parmigiano Reggiano 24 mesi</div>
+                                        <div class="text-xs text-gray-500">Ultimo ordine: 2 kg - 15/01/2026</div>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-xs text-purple-600 font-medium">10 ordini</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-2 mt-2">
+                                    <button class="w-6 h-6 bg-gray-200 rounded flex items-center justify-center">
+                                        <span class="material-icons-outlined text-xs">remove</span>
+                                    </button>
+                                    <span class="text-sm min-w-8 text-center">2</span>
+                                    <button class="w-6 h-6 bg-brand rounded flex items-center justify-center">
+                                        <span class="material-icons-outlined text-xs text-gray-900">add</span>
+                                    </button>
+                                    <span class="text-xs text-gray-600 ml-2">kg</span>
+                                    <button class="ml-auto px-2 py-1 bg-green-100 text-green-700 rounded text-xs">
+                                        + Aggiungi
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-2 border rounded bg-gray-50">
+                                <div class="flex justify-between items-start mb-1">
+                                    <div class="flex-1">
+                                        <div class="text-sm font-medium">Mortadella Bologna IGP</div>
+                                        <div class="text-xs text-gray-500">Ultimo ordine: 1.5 kg - 10/01/2026</div>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-xs text-purple-600 font-medium">8 ordini</div>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-2 mt-2">
+                                    <button class="w-6 h-6 bg-gray-200 rounded flex items-center justify-center">
+                                        <span class="material-icons-outlined text-xs">remove</span>
+                                    </button>
+                                    <span class="text-sm min-w-8 text-center">1.5</span>
+                                    <button class="w-6 h-6 bg-brand rounded flex items-center justify-center">
+                                        <span class="material-icons-outlined text-xs text-gray-900">add</span>
+                                    </button>
+                                    <span class="text-xs text-gray-600 ml-2">kg</span>
+                                    <button class="ml-auto px-2 py-1 bg-green-100 text-green-700 rounded text-xs">
+                                        + Aggiungi
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3: Product Selection -->
+            <div class="bg-gray-900 rounded-2xl p-2 shadow-2xl">
+                <div class="bg-white rounded-xl overflow-hidden h-[500px]">
+                    <div class="bg-brand px-3 py-2 text-center">
+                        <span class="text-gray-900 font-medium text-sm">3. Selezione Prodotti</span>
                     </div>
                     <div class="p-3 space-y-2">
                         <div class="text-xs text-gray-600 mb-2">Cliente: Bar Centrale (Listino Premium)</div>
@@ -253,11 +345,11 @@
                 </div>
             </div>
 
-            <!-- Step 3: Order Summary -->
+            <!-- Step 4: Order Summary -->
             <div class="bg-gray-900 rounded-2xl p-2 shadow-2xl">
                 <div class="bg-white rounded-xl overflow-hidden h-[500px]">
                     <div class="bg-brand px-3 py-2 text-center">
-                        <span class="text-gray-900 font-medium text-sm">3. Riepilogo Ordine</span>
+                        <span class="text-gray-900 font-medium text-sm">4. Riepilogo Ordine</span>
                     </div>
                     <div class="p-3 space-y-3">
                         <div class="text-xs text-gray-600">Bar Centrale - Via Roma 123</div>
@@ -307,7 +399,7 @@
                         <div class="bg-yellow-50 p-2 rounded border border-yellow-200">
                             <div class="flex items-center text-xs text-yellow-800">
                                 <span class="material-icons-outlined mr-1 text-xs">offline_bolt</span>
-                                Ordine salvato offline - Sincronizzerà automaticamente
+                                Ordine salvato offline
                             </div>
                         </div>
                     </div>
@@ -360,7 +452,7 @@
                         </div>
                         <div class="flex items-center space-x-2 p-2 bg-brand bg-opacity-10 rounded-lg text-gray-900">
                             <span class="material-icons-outlined">shopping_cart</span>
-                            <span>Ordini Mobile</span>
+                            <span>Ordini</span>
                         </div>
                         <div class="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded-lg text-gray-600">
                             <span class="material-icons-outlined">people</span>
@@ -414,15 +506,15 @@
                     <!-- Orders Table -->
                     <div class="bg-white rounded-lg shadow">
                         <div class="flex justify-between items-center p-4 border-b">
-                            <h3 class="font-semibold text-gray-900">Ordini da App Mobile</h3>
+                            <h3 class="font-semibold text-gray-900">Ordini di Vendita</h3>
                             <div class="flex space-x-2">
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">
+                                    <span class="material-icons-outlined text-xs mr-1">fiber_new</span>
+                                    Nuovo
+                                </span>
                                 <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
                                     <span class="material-icons-outlined text-xs mr-1">check_circle</span>
-                                    Sincronizzato
-                                </span>
-                                <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs">
-                                    <span class="material-icons-outlined text-xs mr-1">sync</span>
-                                    In Attesa
+                                    Evaso
                                 </span>
                             </div>
                         </div>
@@ -445,7 +537,7 @@
                                         <td class="px-4 py-3 text-sm">15 articoli</td>
                                         <td class="px-4 py-3 text-sm font-medium">€450,80</td>
                                         <td class="px-4 py-3 text-sm">
-                                            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">Sincronizzato</span>
+                                            <span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">Evaso</span>
                                         </td>
                                         <td class="px-4 py-3 text-sm text-gray-500">2 ore fa</td>
                                     </tr>
@@ -455,7 +547,7 @@
                                         <td class="px-4 py-3 text-sm">8 articoli</td>
                                         <td class="px-4 py-3 text-sm font-medium">€285,50</td>
                                         <td class="px-4 py-3 text-sm">
-                                            <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">In Attesa</span>
+                                            <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Nuovo</span>
                                         </td>
                                         <td class="px-4 py-3 text-sm text-gray-500">1 ora fa</td>
                                     </tr>
